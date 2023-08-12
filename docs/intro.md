@@ -2,46 +2,29 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**yalibs** is a collection of simple libraries that provide "yet another" implementation of common use cases. 
+Each library is completely isolated and must not depend on any other yalibs library, or any other third party library (language standard libraries are allowed).
+Our mission is to provide simple, easy to use, open source and easy to understand, [do-one-thing](https://en.wikipedia.org/wiki/Unix_philosophy) libraries to anyone who might want and/or need it.
 
-## Getting Started
+At the time of writing, we only provide libraries for C/C++, but we have plans to extend to more languages such as Java, C# and JavaScript. We endeavor to only use one packaging format and distribution method per language.
 
-Get started by **creating a new site**.
+## Getting Involved 
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+We are actively looking for more help. Both developers and idea-people!
+If you are missing a library we recommend submitting an [issue on the yadocs repository](https://github.com/yalibs/yadocs/issues) any language is allowed and we are very open to ideas.
+If you already have an implementation and a git repository and your code is [clean](https://www.oreilly.com/library/view/clean-code-a/9780136083238/), please submit an [issue](https://github.com/yalibs/yadocs/issues) requesting us to fork your repository. We will invite you as a contributor to that fork as well.
+If you are experiencing an issue with a library, please submit an issue on the repository's own issue page detailing your problem.
 
-### What you'll need
+If you want to submit a blog post to the **yadocs** site, please submit a [pull request](https://github.com/yalibs/yadocs/pulls).
+If you are considering contributing to **yalibs** we urge you to keep a decent tone and be respectful of others.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## This Site
 
-## Generate a new site
+This website is meant to contain deep documentation of the libraries (note, each documentation page here _should_ also be available on the respective library's git repository), but we also have facilities for a [blog](https://yalibs.dk/blog/) where we might post opinion-pieces if we want.
 
-Generate a new Docusaurus site using the **classic template**.
+### Why the .dk TLD?
 
-The classic template will automatically be added to your project after you run the command:
+The original creator [sillydan1](https://github.com/sillydan1) is from Denmark and `.dk` is the danish TLD. Also it is much cheaper than a `.com` domain.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
